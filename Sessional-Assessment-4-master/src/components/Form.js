@@ -25,12 +25,12 @@ export default function Form() {
     <div>
       <h1>Vechile Details</h1>
       <form className='container'>
-        <label>S.No</label><br></br>
-        <input type="number"   placeholder='Enter Position' onChange={(e) => setposition(e.target.value)} required></input><br></br>
+        <label>Vehicle No.</label><br></br>
+        <input type="text"   placeholder='Enter vehicle no.' onChange={(e) => setposition(e.target.value)} required></input><br></br>
         <label>Car Name</label><br></br>
         <input type="text"   placeholder='Enter Name' onChange={(e) => setplayer(e.target.value)} required></input><br></br>
         <label >Model</label><br></br>
-        <input type="number" placeholder='Enter Rating' onChange={(e) => setrating(e.target.value)} required></input><br></br>
+        <input type="date" placeholder='Enter Year' onChange={(e) => setrating(e.target.value)} required></input><br></br>
         <Link to='/added'>
           <input className='btn' type="submit" onClick={handleSubmit}></input>
         </Link>

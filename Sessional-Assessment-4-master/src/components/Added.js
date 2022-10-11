@@ -15,9 +15,9 @@ export default function Added() {
       <table>
         <thead>
           <tr>
-            <th>Position</th>
-            <th>Players</th>
-            <th>Ratings</th>
+            <th>Vehicle NO</th>
+            <th>Car Name</th>
+            <th>Model</th>
           </tr>
 
         </thead>
